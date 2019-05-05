@@ -1,7 +1,7 @@
 import React from "react";
 import List from "./List.jsx";
 
-const App = props => {
+const App = () => {
   return (
     <div>
       <List />

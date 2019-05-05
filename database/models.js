@@ -15,4 +15,9 @@ const Todo = connection.define('todos', {
 
 connection.sync({ force: false });
 
+//const User = connection.define........
+
 module.exports.Todo = Todo;
+
+//if more than one table (ex. with User above)
+  // module.exports = {Todo, User} ?????????
